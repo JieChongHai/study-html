@@ -1,0 +1,27 @@
+.l_body .b_nav{
+  margin-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.l_body .b_nav ul{
+  list-style: none;
+}
+.l_body .b_nav ul li{
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 40px;
+  margin-right: 42px;
+  cursor: pointer;
+}
+.l_body .b_nav ul li:hover{
+  color: #ff8140;
+}
+.l_body .b_nav ul li.active::after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -1px;
+  left: 0;
+  background: #ff8140;
+}

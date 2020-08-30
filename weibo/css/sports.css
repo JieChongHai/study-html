@@ -1,0 +1,11 @@
+.icon_film{
+  font-size: 14px;
+}
+.type_a .ta_title img.hot_star{
+  /* display: inline-block; */
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+}

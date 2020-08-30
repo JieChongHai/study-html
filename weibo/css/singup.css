@@ -1,0 +1,395 @@
+body,button,input,select,textarea {
+  font: 12px/1.125 Arial,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+body,h1,h2,h3,h4,h5,h6,dl,dt,dd,ul,ol,li,th,td,p,blockquote,pre,form,fieldset,legend,input,button,textarea,hr {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+li {
+  list-style: none;
+}
+
+fieldset,img {
+  border: 0;
+}
+
+a:focus,input,textarea {
+  outline-style: none;
+}
+
+input[type="text"],input[type="password"],textarea {
+  outline-style: none;
+  -webkit-appearance: none;
+}
+
+textarea {
+  resize: none
+}
+
+address,caption,cite,code,dfn,em,i,th,var,b {
+  font-style: normal;
+  font-weight: normal;
+}
+
+abbr,acronym {
+  border: 0;
+  font-variant: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a {
+  color: #0a8cd2;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.clearfix {
+  display: inline-block;
+}
+
+.clearfix {
+  display: block;
+}
+
+.clear {
+  clear: both;
+  height: 0;
+  font: 0/0 Arial;
+  visibility: hidden;
+}
+/* container */
+body{
+  background: url(../images/singup/reg_repeat_bg.png) repeat-x #bee1f5;
+}
+.head_line{
+  height: 3px;
+  border-bottom: 1px solid #e6f1f9;
+  background: url(../images/singup/top_line_bg.png) repeat-x center 0;
+  overflow: hidden;
+}
+/* top */
+.top{
+  width: 900px;
+  height: 164px;
+  margin: 0 auto;
+  padding: 10px 0;
+  background: url(../images/singup/bg_reg_wave.png) no-repeat center bottom;
+}
+.top .t_logo{
+  width: 200px;
+  height: 72px;
+  margin: 0 auto;
+  margin-top: 26px;
+  background: url(../images/singup/logo_big.png) no-repeat;
+}
+/* main */
+.main{
+  width: 900px;
+  margin: 0 auto 15px;
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0px 2px 3px #98b4c4;
+  -moz-box-shadow: 0px 2px 3px #98b4c4;
+  -webkit-box-shadow: 0px 2px 3px #98b4c4;
+}
+.main .m_head{
+  padding: 24px 0 22px 40px;
+}
+.main .m_head a{
+  display: inline-block;
+  font-size: 22px;
+  color: #333;
+  line-height: 33px;
+  text-decoration: none;
+}
+.main .m_head a.active{
+  border-bottom: 3px solid #ffa00a;
+}
+.main .m_head span{
+  margin: 0 19px;
+  color: #999;
+}
+.main .m_reg{
+  background: url(../images/singup/reg_vline.png) no-repeat scroll 630px 0;
+  background-position: 630px -45px;
+  overflow: hidden;
+}
+.m_reg .reg_form{
+  float: left;
+  width: 600px;
+  margin: 29px 0 0 20px;
+  padding-bottom: 78px;
+}
+.reg_form .list_item{
+  position: relative;
+  margin: 0 0 15px;
+}
+.list_item .li_l{
+  float: left;
+  width: 160px;
+  line-height: 30px;
+  text-align: right;
+  font-size: 14px;
+}
+.list_item .li_m{
+  margin-left: 160px;
+}
+.list_item .li_r{
+  position: absolute;
+  left: 375px;
+  top: 6px;
+}
+.li_l span.icon_phone{
+  display: inline-block;
+  margin-right: 9px;
+  width: 20px;
+  height: 23px;
+  background: url(../images/singup/reg_method_s.png) no-repeat 0 0;
+  background-position: 0 -24px;
+  vertical-align: middle;
+}
+.li_l i{
+  color: #F00;
+  vertical-align: middle;
+  font-family: "SimSun";
+  font-style: normal;
+  font-weight: normal;
+  padding-right: 4px;
+}
+.li_m .input{
+  overflow: hidden;
+}
+.li_m input.input{
+  width: 196px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  height: 28px;
+  padding: 0 0 0 2px;
+  vertical-align: middle;
+  color: #808080;
+  box-shadow: 0px 1px 1px 0px #eaeaea inset;
+}
+.li_m .input a{
+  float: left;
+  padding: 8px 4px;
+  width: 27px;
+  height: 12px;
+  border: 1px solid #ccc;
+  background: url(../images/singup/reg_flag.png) no-repeat;
+  background-position: 4px 8px;
+}
+.li_m .input .input_m{
+  position: relative;
+  left: -1px;
+  float: left;
+  width: 157px;
+  height: 28px;
+  padding-left: 5px;
+  background: #fff;
+  color: #808080;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+}
+.input .input_m span{
+  float: left;
+  margin: 0 5px 0 0;
+  font-size: 14px;
+  line-height: 28px;
+}
+.input .input_m input{
+  width: 112px;
+  height: 28px;
+  font-size: 14px;
+  border: 0;
+  background: none;
+  color: #808080;
+  box-shadow: none;
+}
+.li_m .input_tip{
+  padding-top: 10px;
+}
+.li_m .year{
+  width: 60px;
+  height: 22px;
+  padding: 2px 0;
+  margin-top: 4px;
+}
+.li_m .month{
+  width: 44px;
+  height: 22px;
+  padding: 2px 0;
+  margin-top: 4px;
+}
+.li_m .day{
+  width: 44px;
+  height: 22px;
+  padding: 2px 0;
+  margin-top: 4px;
+}
+.li_m .s_txt{
+  margin: 0 0px 0 4px;
+}
+.m_reg .reg_form div.submit{
+  margin: 30px 0 12px;
+}
+.submit .li_m a{
+  border: 1px solid #ff9b01;
+  border-radius: 2px;
+  display: inline-block;
+  cursor: pointer;
+}
+.submit .li_m a{
+  width: 196px;
+  height: 18px;
+  padding: 10px 0 8px;
+  line-height: 18px;
+  border: 1px solid #ffb33b;
+  color: #FFF;
+  background: #FFA00A;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+}
+.li_m .agreement{
+  margin: 0 0 7px;
+  vertical-align: middle;
+}
+.li_r .error{
+  padding: 0 0 0 20px;
+  text-indent: -20px;
+  line-height: 18px;
+  color: #e64141;
+}
+.li_r .error .icon_error{
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url(../images/singup/ico_warn.png);
+  background-position: 0 -250px;
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+.m_reg .reg_slider{
+  float: right;
+  width: 210px;
+  margin: 30px 30px 0 0;
+  font-size: 14px;
+  line-height: 22px;
+}
+.reg_slider .title{
+  margin: 0 0 14px;
+  padding: 0 0 6px;
+  border-bottom: 1px dotted #ccc;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+.reg_slider .title a{
+  color: #0a8cd2;
+  text-decoration: none;
+}
+.reg_slider .help{
+  font-size: 12px;
+  margin-top: 10px;
+}
+.reg_slider .help ul{
+  list-style: none;
+}
+.reg_slider .help ul li{
+  margin-top: 5px;
+  overflow: hidden;
+}
+.reg_slider .help ul li i{
+  float: left;
+  margin: 4px 10px 0 0;
+  width: 15px;
+  height: 18px;
+  line-height: 15px;
+  text-align: center;
+  color: #FFF;
+  background: url(../images/singup/bg_listNum.png) no-repeat;
+  font-style: normal;
+  font-weight: normal;
+}
+.reg_slider .help ul li a{
+  display: block;
+  overflow: hidden;
+  width: 175px;
+  float: left;
+}
+.reg_slider .help>a{
+  display: inline-block;
+  margin: 16px 0 0 25px;
+}
+/* bottom */
+.bottom{
+  width: 900px;
+  margin: 0 auto;
+}
+.bottom .b_left{
+  float: left;
+}
+.b_left .b_icon{
+  display: inline-block;
+  width: 26px;
+  height: 21px;
+  background: url(../images/singup/reg_ico.png) no-repeat 0 4px;
+  vertical-align: -4px;
+  font-style: normal;
+  font-weight: normal;
+}
+.b_left a{
+  color: #6e9ab8;
+}
+.bottom .b_right{
+  float: right;
+}
+.b_right span{
+  margin-left: 10px;
+  text-align: right;
+  color: #6e9ab8;
+}
+.b_right select{
+  margin-left: 10px;
+}
